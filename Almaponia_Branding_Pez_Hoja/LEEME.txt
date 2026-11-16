@@ -1,0 +1,18 @@
+ALMAPONIA | PAQUETE DE IDENTIDAD VISUAL
+
+01_Vector_SVG: logo completo, anagrama y nombre con pez en la A y hoja en la i; versiones con fondo transparente y blanco.
+02_Imprenta_PDF: PDF vectoriales RGB y CMYK a 200 mm de ancho, escalables para roll-up y gran formato.
+03_PNG_Alta_Resolucion: exportaciones PNG de 8.000 px en el lado mayor, a 300 ppp, con transparencia o fondo blanco.
+04_Web_Favicon_YouTube: favicon SVG/PNG/ICO con el anagrama, tamaños web y emblema en cuadrado blanco redondeado para YouTube.
+05_Fondos_oscuros: versiones negativas a color y blanco total en SVG, PDF y PNG.
+06_Tipografia_Inter: Inter Variable y licencia OFL para textos de apoyo; el logotipo se mantiene como dibujo vectorial.
+Paleta_de_colores.csv: valores HEX, RGB, CMYK orientativo y candidatos Pantone.
+Colores_y_guia_de_imprenta.pdf: guía de aplicación, impresión y color.
+Vista_previa.png: logo principal sobre fondo blanco.
+
+IMPRESIÓN Y GRAN FORMATO
+Para roll-up, lonas y tamaños mayores, entrega a imprenta preferentemente el PDF vectorial o el SVG. Al ampliar esos archivos, los contornos se mantienen nítidos. Los PNG de 8.000 px sirven como alternativa raster; su resolución efectiva dependerá del tamaño final.
+
+Los valores CMYK son conversiones genéricas sin perfil ICC ni certificación PDF/X; la imprenta debe adaptarlos al soporte y proceso. Los nombres Pantone son candidatos aproximados, no equivalencias certificadas ni tintas directas. Confirmar con guía física y prueba impresa.
+
+Las versiones transparentes no llevan fondo. Las versiones blancas tienen fondo opaco blanco. Las negativas son transparentes y se usan sobre fondos oscuros.

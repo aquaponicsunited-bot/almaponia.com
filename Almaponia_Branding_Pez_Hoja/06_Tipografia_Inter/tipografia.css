@@ -1,0 +1,3 @@
+@font-face { font-family: 'Inter'; src: url('./Inter-Variable.ttf') format('truetype'); font-weight: 100 900; font-style: normal; font-display: swap; }
+body { font-family: 'Inter', Arial, sans-serif; }
+h1, h2, h3, strong { font-weight: 600; }
