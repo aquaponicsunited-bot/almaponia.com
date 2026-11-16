@@ -193,16 +193,24 @@ h1 {
 
 /* ---------- acción: botón + QR ---------- */
 .accion {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
-  justify-content: center;
-  gap: clamp(0.9rem, 2.2vw, 1.5rem);
-  flex-wrap: nowrap;
+  gap: clamp(1rem, 3vw, 2.2rem);
+  width: 100%;
+  max-width: 640px;
 }
-.accion .cta { margin-top: 0; }
+.accion-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.85rem;
+}
+.accion-texto .cta { margin-top: 0; }
 
 .qr-mini {
-  width: clamp(78px, 9vw, 104px);
+  width: clamp(132px, 19vw, 220px);
   height: auto;
   padding: 0.4rem;
   background: #fff;
@@ -213,6 +221,13 @@ h1 {
   transition: transform 0.16s ease, box-shadow 0.16s ease;
 }
 .qr-mini:hover { transform: translateY(-1px); box-shadow: 0 18px 34px -16px rgba(0, 67, 92, 0.45); }
+
+@media (max-width: 560px) {
+  .accion { gap: 1.05rem; }
+  .accion-texto .cta { padding: 0.8rem 1.15rem; font-size: 0.92rem; }
+  .accion-texto .nota { font-size: 0.77rem; }
+  .qr-mini { width: clamp(126px, 32vw, 146px); border-radius: 12px; padding: 0.3rem; }
+}
 
 /* ---------- banda de financiación y socios ---------- */
 .socios {
