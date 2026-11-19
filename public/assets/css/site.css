@@ -83,14 +83,14 @@ a { color: var(--agua); }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.7rem;
-  height: 1.7rem;
+  width: 1.45rem;
+  height: 1.45rem;
   border-radius: 50%;
   color: #b6d8e4;
   text-decoration: none;
   transition: color 0.15s ease, background 0.15s ease;
 }
-.redes svg { width: 1.05rem; height: 1.05rem; display: block; }
+.redes svg { width: 1rem; height: 1rem; display: block; }
 .redes a:hover { color: #fff; background: rgba(255, 255, 255, 0.12); }
 .redes a:focus-visible { outline: 2px solid var(--verde); outline-offset: 2px; }
 
@@ -338,8 +338,8 @@ h1 {
 .pie .marca { display: flex; align-items: center; gap: 0.55rem; font-weight: 600; color: var(--petroleo); }
 .pie .marca img { width: 1.5rem; height: auto; }
 .pie .redes { gap: 0.2rem; }
-.pie .redes a { color: var(--petroleo); width: 2rem; height: 2rem; }
-.pie .redes svg { width: 1.2rem; height: 1.2rem; }
+.pie .redes a { color: var(--petroleo); width: 1.55rem; height: 1.55rem; }
+.pie .redes svg { width: 1rem; height: 1rem; }
 .pie .redes a:hover { color: #fff; background: var(--profundo); }
 
 /* ---------- página simple (privacidad) ---------- */
